@@ -1,20 +1,82 @@
-<div id="pakket1"><h1 id="brons">Brons</h1></div>
-<div id="pakket2"><h1 id="silver">Silver</h1></div>
-<div id="pakket3"><h1 id="goud">Goud</h1></div>
+<div id="pakketten">
+	<div id="pakket1">
+		<h4 id="brons">Brons</h4>
+				<ul id="brons">
+					<li>10GB HDD</li>
+					<li>512 MB RAM</li>
+					<li>1 Core</li>
+					<li>100 GB dataverkeer per maand</li>
+				</ul>
+			<p>	
+			€5,95 euro p/m	
+			</p>
+	</div>
+	<div id="pakket2">
+		<h4 id="silver">Silver</h4>
+			<p>
+				<ul id="silver">
+					<li>20GB HDD</li>
+					<li>1084 MB RAM</li>
+					<li>2 Cores</li>
+					<li>200 GB dataverkeer per maand</li>
+				</ul>
+			€7,95 euro per maand
+			</p>
+	</div>
+	<div id="pakket3">
+		<h4 id="goud">Goud</h4>
+			<p>
+				<ul id="goud">
+					<li>50GB HDD</li>
+					<li>2084 MB RAM</li>
+					<li>4 Core</li>
+					<li>Onbeperkt dataverkeer per maand</li>
+				</ul>
+			€10,95 euro p/m	
+			</p>
+	</div>
+</div>
 
-
-
+<!-- STYLEBLAD -->
 
 <style>
+html{
+	font-size:1.5em;
+}
+
+@font-face {
+    font-family: code;
+    src: url(font/built.ttf);
+}
+p,h1,ul{
+	text-align:center;
+	font-family:code;
+}
+ul#brons,ul#silver,ul#goud{
+	list-style-type: none;
+}
+
 h1#brons,h1#silver,h1#goud{
 	font-size:2.5em;
 }
 
 #pakket1,#pakket2,#pakket3{
-	max-width:10%;
-	max-height:20%;
+	max-width:20%;
+	max-height:50%;
 	margin:1px;
 	float:left;
+}
+
+#pakket1:hover{
+	opacity:0.7;
+}
+	
+#pakket2:hover{
+	opacity:0.7;
+}
+
+#pakket3:hover{
+	opacity:0.7;
 }
 
 #pakket1{

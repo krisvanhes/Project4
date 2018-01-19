@@ -1,3 +1,4 @@
+<!--
 <div class="dropdown">
   <button class="dropbtn"><a id="cloud" href="cloud/cloud.html">Cloud</a></button>
   <div class="dropdown-content">
@@ -10,11 +11,164 @@
 	<a href="hosting/pakketten.html">Hostpakketen</a>
   </div>
 </div>
+-->
+<div id="pakketten">
+	<h1>Hosting pakketten</h1>
+		<div id="pakket1">
+			<h2 id="brons">Brons</h2>
+					<ul id="brons">
+						<li>10GB HDD</li>
+						<li>512 MB RAM</li>
+						<li>1 Core</li>
+						<li>100 GB dataverkeer per maand</li>
+					</ul>
+				<p>	
+				€5,95 euro p/m	
+				</p>
+		</div>
+		<div id="pakket2">
+			<h2 id="silver">Silver</h2>
+					<ul id="silver">
+						<li>20GB HDD</li>
+						<li>1084 MB RAM</li>
+						<li>2 Cores</li>
+						<li>200 GB dataverkeer per maand</li>
+					</ul>
+				<p>	
+				€7,95 euro per maand
+				</p>
+		</div>
+		<div id="pakket3">
+			<h2 id="goud">Goud</h2>
+				<p>
+					<ul id="goud">
+						<li>50GB HDD</li>
+						<li>2084 MB RAM</li>
+						<li>4 Core</li>
+						<li>Onbeperkt dataverkeer per maand</li>
+					</ul>
+				<p>	
+				€10,95 euro p/m	
+				</p>
+		</div>
+</div>
 
+<div id="cpakketten">
+	<h1>Cloud pakketten</h1>
+		<div id="cpakket1">
+			<h2 id="geel">Geel</h2>
+				<p>10GB</p>
+				<p>€4 euro per maand</p>
+		</div>
+		<div id="cpakket2">
+			<h2 id="oranje">Oranje</h2>
+				<p>100GB</p>
+				<p>€6 euro per maand</p>
+		</div>
+		<div id="cpakket3">
+			<h2 id="groen">Groen</h2>
+				<p>1TB Opslag</p>
+				<p>€10 euro per maand</p>
+		</div>
+</div>
 <style>
+html{
+	font-size:1.5em;
+	text-align:center;
+}
+
+@font-face {
+    font-family: code;
+    src: url(font/built.ttf);
+}
+
+p,h1,h2,ul{
+	
+	font-family:code;
+}
+ul#brons,ul#silver,ul#goud{
+	list-style-type: none;
+}
+
+h1#brons,h1#silver,h1#goud{
+	font-size:2.5em;
+}
+
+#pakketten{
+	float:left;
+}
+
+#cpakketten{
+	float:left;
+}
+
+#cpakket1:hover{
+	opacity:0.7;
+}
+	
+#cpakket2:hover{
+	opacity:0.7;
+}
+
+#cpakket3:hover{
+	opacity:0.7;
+}
+
+#cpakket1,#cpakket2,#cpakket3,#pakket1,#pakket2,#pakket3{
+	width:100%;
+	height:40%;
+	margin:1px;
+	padding:1px;
+	float:center;
+}
+
+#cpakket1{
+	background-color:gold;
+}
+
+#cpakket2{
+	background-color:orangered;
+}
+
+#cpakket3{
+	background-color:green;
+}
+
+#pakket1:hover{
+	opacity:0.7;
+}
+	
+#pakket2:hover{
+	opacity:0.7;
+}
+
+#pakket3:hover{
+	opacity:0.7;
+}
+
+#pakket1{
+	background-color:#cc6633;
+}
+
+#pakket2{
+	background-color:silver;
+}
+
+#pakket3{
+	background-color:GoldenRod;
+}
+
 a{
 	text-decoration:none;
 }
+
+#pakketten,#cpakketten{
+	width:30%;
+	padding:10%;
+}
+
+
+<!-- DROPDOWN CSS -->
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -61,4 +215,3 @@ a{
 	opacity:0.9;
 }
 </style>
-
