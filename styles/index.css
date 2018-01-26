@@ -1,0 +1,30 @@
+@font-face {
+    font-family: font;
+    src: url(Project4/font/codebold.otf); 
+}
+
+body{
+	font-size:1.5em;
+	text-align:center;
+	font-family: font;
+}
+
+h1#brons,h1#silver,h1#goud{
+	font-size:2.5em;
+}
+
+#cpakket1,#cpakket2,#cpakket3{
+	height:10%;
+	margin:1%;
+	padding:1%;	
+}
+
+#pakket1,#pakket2,#pakket3{
+	height:10%;
+	margin:2%;
+	padding:1%;	
+}
+
+a{
+	text-decoration:none;
+}

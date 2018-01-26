@@ -1,0 +1,165 @@
+@font-face {
+    font-family: code;
+    src: url(font/built.ttf);
+}
+
+body{
+	margin:0 auto;
+}
+
+#footer{
+	max-width:1081px;
+	margin:0px auto 1px auto;
+	padding:0.5em 0;	
+	background-color:#282828;
+	color:white;
+	text-align:center;
+	font-family: code, Helvetica, sans-serif;
+}
+
+#nav{
+	padding-top:110px;
+}
+
+#content{
+	margin-top:20%;
+}
+
+.content{
+	margin-top:20%;
+}
+
+#content1{
+	overflow:auto;
+	margin-top:200px;
+}
+
+.kolom1,.kolom2{
+	margin-top:10px;
+	width:30%;
+	margin-right:10%;
+	margin-left:10%;
+	float:left;
+	margin-bottom:10%;
+}
+
+h1#pak{
+		color:white;
+}
+
+#kolom1,#kolom2,#kolom3{
+	margin-top:10px;
+	max-width:1080px;
+	margin-right:1%;
+	margin-left:1%;
+	border-style: solid;
+    border-width: 1px 1px 1px 1px;
+	border-color:black;
+	background-color:darkgrey;
+}
+
+#kolom4{
+	margin-top:210px;
+	max-width:1080px;
+	float:center;
+	height:1210px;
+	margin-right:1%;
+	margin-left:1%;
+	border-style: solid;
+    border-width: 1px 1px 1px 1px;
+	border-color:black;
+	background-color:darkgrey;
+}
+
+#kolom5{
+	margin-top:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	max-width:1080px;
+	float:center;
+	margin-right:1%;
+	margin-left:1%;
+	border-style: solid;
+    border-width: 1px 1px 1px 1px;
+	border-color:black;
+	background-color:darkgrey;
+}
+
+li{
+	display:inline;
+	padding:0.5em;
+}
+
+#li1,#li2,#li3{
+	margin:1%;
+	
+}
+
+a.links{
+	text-decoration:none;
+	background:black;
+}
+
+a:link {
+    color: #1C1C1C;
+    padding: 1% 1%;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:visited {
+    color: #1C1C1C;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color:black;
+}
+
+#wrapper{
+	margin:0px auto 0px auto;
+	max-width:1080px;
+	min-height:800px;
+	height:1750px;
+	background-color:#282828;
+	font-family: code, Helvetica, sans-serif;
+	text-align:center;
+	border-style: solid;
+    border-width: 1px 1px 0px 1px;
+	border-color:white;
+}
+
+#header{
+	background:url('afbeeldingen/banner.png');
+	margin-top:-1px;
+	position: fixed;
+	height:200px;
+	width:100%;
+	max-width:1080px;
+	border-style: solid;
+    border-width: 0px 0px 0.1px 0px;
+	border-color:black;
+}
+
+.article{
+	margin-top:200px;
+}
+
+#banner1,#banner2,#banner3{
+	float:center;
+	padding:10px;	
+}
+	
+}
+
+#banners{
+	margin-top:210px;
+}
+
+img #foto{
+	border:1px solid black;
+}

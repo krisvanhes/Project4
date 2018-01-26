@@ -1,0 +1,52 @@
+/* ACHTERGROND 
+	KLEUREN */
+h1#brons{
+	color:gold;
+	height:100px;
+}
+	
+.brons{
+	background-color:#cc6633;
+	height:100px;
+	margin: 0px auto 0px auto;
+	padding:10px;
+}
+
+.silver{
+	background-color:silver;
+	height:100px;
+	margin: 0px auto 0px auto;
+	padding:10px;
+}
+
+.goud{
+	background-color:GoldenRod;
+	height:100px;
+	margin: 0px auto 0px auto;
+	padding:10px;
+}
+
+.geel{
+	background-color:gold;
+	height:100px;
+	margin: 0px auto 0px auto;
+	padding:10px;
+}
+
+.oranje{
+	background-color:#FF8000;
+	height:100px;
+	margin: 0px auto 0px auto;
+	padding:10px;
+}
+
+.groen{
+	background-color:#3CBC3C;
+	height:100px;
+	margin: 0px auto 0px auto;
+	padding:10px;
+}
+
+#pakket1,#pakket2,#pakket3,#cpakket1,#cpakket2,#cpakket3{
+	background-color:white;
+}
