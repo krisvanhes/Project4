@@ -3,72 +3,96 @@
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 	<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+	<link href="menu.css" rel="stylesheet" type="text/css"/>
 	<link href="styles/kleuren.css" rel="stylesheet" type="text/css"/>
+	<link href="styles/hosting.css" rel="stylesheet" type="text/css"/>
 	<link href="styles/index.css" rel="stylesheet" type="text/css"/>
 	<title>
-		Colicss - Home
+		Colicss - Hosting
 	</title>
 </head>
 <body>
 <div id="wrapper">
-	<div id="header">
-		<div id="nav">
-			<ul>
-				<li><a href="">Homepagina</a></li> |
-				<li><a href="">Cloudopslag</a></li> |
-				<li><a href="">Hostpakketten</a></li>
-			</ul>
-		</div>
-		</div>
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html">Homepagina</a>
+	  <a href="cloud.html">Cloudopslag</a>
+	  <a href="hosting.html" class="active">Hostpakketten</a>
+	  <a href="klanten.html">Klanten</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
 
-		
-
-
-		<div class="content">
-			<div class="kolom1">
-			<h1 id="pak">Hosting pakketten</h1>
-				<div id="pakket1">
-					<div class="brons">
-						<h2 id="brons">Brons</h2>
-					</div>
-								<p>10GB HDD</p>
-								<p>512 MB RAM</p>
-								<p>1 Core</p>
-								<p>100 GB dataverkeer per maand<p>
-						<p>	
-						€5,95 euro p/m	
-						</p>
-				</div>
-				<div id="pakket2">
-					<h2 id="silver">Silver</h2>
-								<p>20GB HDD</p>
-								<p>1084 MB RAM</p>
-								<p>2 Cores</p>
-								<p>200 GB dataverkeer per maand</p>
-						<p>	
-						€7,95 euro per maand
-						</p>
-				</div>
-				<div id="pakket3">
-					<h2 id="goud">Goud</h2>
-						<p>
-							<ul id="goud">
-								<li>50GB HDD</li>
-								<li>2084 MB RAM</li>
-								<li>4 Core</li>
-								<li>Onbeperkt dataverkeer per maand</li>
-							</ul>
-						<p>	
-						€10,95 euro p/m	
-						</p>
-				</div>
-			</div>
-		</div>	
+<div class="container flex-direction">
+      <div class="div1">
+       <h1 id="pak1">€5,95 p/m</h1>
+					<div class="brons"></div>
+					<p style="color:green"><b>BUDGET</b></p>
+					<hr style="width:75%;">
+					<p id="p">10GB HDD</p>
+					<p id="p">512 MB RAM</p>
+					<p id="p">1 Core</p>
+					<p id="p">100 GB dataverkeer per maand</p>
+					<hr style="width:75%;">
+					<p id="p">Wat gaat het pakket mij kosten?</p>
+					<input style="width:75%;" type="button" value="Per maand" onClick="rekenSom1();">
+					<input style="width:75%;" type="button" value="Per jaar" onClick="rekenSom2();">
+					<input style="width:75%;" type="button" value="Per vijf jaar" onClick="rekenSom3();">
+      </div>
+      <div class="div2">
+        <h1 id="pak1">€7,95 p/m</h1>
+					<div class="silver"></div>
+					<p style="color:orangered"><b>Medium</b></p>
+					<hr style="width:75%;">
+					<p id="p">20GB HDD</p>
+					<p id="p">1084 MB RAM</p>
+					<p id="p">2 Cores</p>
+					<p id="p">100 GB dataverkeer per maand</p>
+					<hr style="width:75%;">
+					<p id="p">Wat gaat het pakket mij kosten?</p>
+					
+				<input style="width:75%;" type="button" value="Per maand" onClick="rekenSom4();">
+				<input style="width:75%;" type="button" value="Per jaar" onClick="rekenSom5();">
+				<input  style="width:75%;"type="button" value="Per vijf jaar" onClick="rekenSom6();">
+      </div>
+	  <div class="div3">
+        <h1 id="pak1">€10,95 p/m</h1>
+					<div class="goud"></div>
+					<p style="color:red"><b>MEESTE WAARDE</b></p>
+					<hr style="width:75%;">
+					<p id="p">50GB HDD</p>
+					<p id="p">2084 MB RAM</p>
+					<p id="p">4 Cores</p>
+					<p id="p">Onbeperktdataverkeer per maand</p>
+					<hr style="width:75%;">
+					<p id="p">Wat gaat het pakket mij kosten?</p>
+					<input style="width:75%;" type="button" value="Per maand" onClick="rekenSom7();">
+				<input style="width:75%;" type="button" value="Per jaar" onClick="rekenSom8();">
+				<input style="width:75%;" type="button" value="Per vijf jaar" onClick="rekenSom9();">
+				
+      </div>
+</div>
 </div>		
 <div id="footer">
 	<p>
-	&copy; Colicss | 2018
+	&copy; Colicss | 2018 <br><br>
+	
+			<a href="https://twitter.com/ColicssHosting"  target="_blank"><img src="afbeeldingen/twitter.jpg" alt="Twitter" style="width:42px;height:42px;border:0;"></a>
+			
+			<a href="https://www.instagram.com/coliccshosting/"  target="_blank"><img src="afbeeldingen/instagram.jpg" alt="Instagram" style="width:42px;height:42px;border:0;"></a>
+			
+			<a href="https://www.facebook.com/coliccshosting"  target="_blank"><img src="afbeeldingen/facebook.jpg" alt="Facebook" style="width:42px;height:42px;border:0;"></a>
 	</p>	
 </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<script src="js/script.js" rel="text/javascript"></script>
 </body>
 </html>

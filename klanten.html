@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+	<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+	<link href="menu.css" rel="stylesheet" type="text/css"/>
+	<link href="styles/kleuren.css" rel="stylesheet" type="text/css"/>
+	<link href="styles/index.css" rel="stylesheet" type="text/css"/>
+	<title>
+		Colicss - Klanten
+	</title>
+</head>
+<body>
+<div id="wrapperk">
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html">Homepagina</a>
+	  <a href="cloud.html">Cloudopslag</a>
+	  <a href="hosting.html">Hostpakketten</a>
+	  <a href="klanten.html" class="active">Klanten</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+		
+<style>
+p{
+overflow: hidden;
+text-align:left;
+}
+
+input {
+  float: right;
+  clear: both;
+}
+
+span{
+color: red;
+}
+
+span#a{
+color: red;
+clear:left;
+float:right;
+}
+</style>
+
+		<div class="content">
+			<div class="klantenkolom1">
+			<p>Bestaande klant? Log hier in</p>
+				Gebruikersnaam: <input type="text" name="name"><br/>  
+				Wachtwoord: <input type="password" name="password"><br/>  
+<input type="submit" value="Inloggen">
+			</div>
+			<div class="klantenkolom2">
+			<p>Nog geen klant? Maak hier een account aan
+			Gebruikersnaam: <input type="text" name="gebruikersnaam"><span id="a">*</span><br>
+			Wachtwoord: <input type="password" name="wachtwoord1"><span id="a">*</span><br>
+			Wachtwoord nogmaals: <input type="password" name="wachtwoord2"><span id="a">*</span><br>
+			Emailadres: <input type="text" name="emailadres"><span id="a">*</span><br>
+			<input type="submit" value="Inloggen">
+				<br><i>Alles met <span>*</span> is verplicht</i></p>
+			</div>
+				<div>
+				
+				<div class="content display-container" style="max-width:1080px; max-height: 100%;">
+				  <img class="mySlides" src="afbeeldingen/slidek/4.png" style="width:100%; max-height:400px;">
+				  <img class="mySlides" src="afbeeldingen/slidek/2.jpg" style="width:100%; max-height:400px;">
+				  <img class="mySlides" src="afbeeldingen/slidek/3.png" style="width:100%; max-height:400px;">
+				  <img class="mySlides" src="afbeeldingen/slidek/4.jpg" style="width:100%; max-height:400px;">
+				  <div class="center container section large text-white display-bottommiddle" style="width:100%">
+				</div>
+				Deze mensen zijn je al voor gegaan!
+				</div>
+				<script>
+				var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2500); // om de 2.5 seconden
+}
+				</script>
+				</div>
+			
+		</div>
+</div>		
+<div id="footer">
+	<p>
+	<center>
+	&copy; Colicss | 2018 <br><br>
+	
+			<a href="https://twitter.com/ColicssHosting"  target="_blank"><img src="afbeeldingen/twitter.jpg" alt="Twitter" style="width:42px;height:42px;border:0;"></a>
+			
+			<a href="https://www.instagram.com/coliccshosting/"  target="_blank"><img src="afbeeldingen/instagram.jpg" alt="Instagram" style="width:42px;height:42px;border:0;"></a>
+			
+			<a href="https://www.facebook.com/coliccshosting"  target="_blank"><img src="afbeeldingen/facebook.jpg" alt="Facebook" style="width:42px;height:42px;border:0;"></a>
+	</p>	
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</html>

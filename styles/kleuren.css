@@ -1,10 +1,5 @@
 /* ACHTERGROND 
 	KLEUREN */
-h1#brons{
-	color:gold;
-	height:100px;
-}
-	
 .brons{
 	background-color:#cc6633;
 	height:100px;
@@ -49,4 +44,59 @@ h1#brons{
 
 #pakket1,#pakket2,#pakket3,#cpakket1,#cpakket2,#cpakket3{
 	background-color:white;
+}
+
+h1#pak1{
+color:white;
+	float:left;
+	padding:12%;
+	margin:0px auto;
+	height:100px;
+	padding-left:20%;
+}
+
+h1#pak2{
+	color:white;
+	float:left;
+	padding:12%;
+	margin:0px auto;
+	height:100px;
+		padding-left:20%;
+}
+
+h1#pak3{
+	color:white;
+	float:left;
+	padding:12%;
+	margin:0px auto;
+	height:100px;
+		padding-left:20%;
+}
+
+h1#cpak1{
+	color:white;
+	float:left;
+	padding:12%;
+		padding-left:20%;
+	margin:0px auto;
+	height:100px;
+	
+}
+
+h1#cpak2{
+	color:white;
+	float:left;
+	padding:12%;
+	margin:0px auto;
+	height:100px;
+		padding-left:20%;
+}
+
+h1#cpak3{
+	color:white;
+	float:left;
+	padding:12%;
+	margin:0px auto;
+	height:100px;
+		padding-left:20%;
 }

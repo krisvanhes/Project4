@@ -2,102 +2,118 @@
 <html>
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+	<link href="menu.css" rel="stylesheet" type="text/css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<link href="styles/kleuren.css" rel="stylesheet" type="text/css"/>
+	<link href="styles/indextekst.css" rel="stylesheet" type="text/css"/>
 	<link href="styles/index.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>
 		Colicss - Home
 	</title>
 </head>
 <body>
 <div id="wrapper">
-	<div id="header">
-		<div id="nav">
-			<ul>
-				<li><a href="index.html">Homepagina</a></li> |
-				<li><a href="cloud.html">Cloudopslag</a></li> |
-				<li><a href="hosting.html">Hostpakketten</a></li>
-			</ul>
-		</div>
-		</div>
-
-		
-
+	<div class="topnav" id="myTopnav">
+	  <a href="index.html" class="active">Homepagina</a>
+	  <a href="cloud.html">Cloudopslag</a>
+	  <a href="hosting.html">Hostpakketten</a>
+	  <a href="klanten.html">Klanten</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
 
 		<div class="content">
-		<h1 id="pak">Welke hosting past het best bij jou?</h1>	
-		
-			<div class="kolom1">
-			<h1 id="pak">Hosting pakketten</h1>
-				<div id="pakket1">
-					<div class="brons">
-						<h2 id="brons">Brons</h2>
-					</div>
-								<p>10GB HDD</p>
-								<p>512 MB RAM</p>
-								<p>1 Core</p>
-								<p>100 GB dataverkeer per maand<p>
-						<p>	
-						€5,95 euro p/m	
-						</p>
+				<div class="content display-container" style="max-width:100; max-height: 100%;">
+				  <img class="mySlides" src="afbeeldingen/1.jpg" style="width:100%; max-height:400px;">
+				  <img class="mySlides" src="afbeeldingen/2.jpg" style="width:100%; max-height:400px;">
+				  <img class="mySlides" src="afbeeldingen/3.jpg" style="width:100%; max-height:400px;">
+				  <div class="center container section large text-white display-bottommiddle" style="width:100%">
 				</div>
-				<div id="pakket2">
-					<div class="silver">
-					<h2 id="silver">Silver</h2>
-					</div>
-								<p>20GB HDD</p>
-								<p>1084 MB RAM</p>
-								<p>2 Cores</p>
-								<p>200 GB dataverkeer per maand<p>
-						<p>	
-						€7,95 euro per maand
-						</p>
 				</div>
-				<div id="pakket3">
-				<div class="goud">
-					<h2 id="goud">Goud</h2>
-				</div>
-						<p>
-								<p>50GB HDD</p>
-								<p>2084 MB RAM</p>
-								<p>4 Core</p>
-								<p>Onbeperkt dataverkeer per maand</p>
-						<p>	
-						€10,95 euro p/m	
-						</p>
-				</div>
-			</div>
+	<script>
+				var slideIndex = 0;
+carousel();
 
-		<div class="kolom2">
-			<h1 id="pak">Cloud pakketten</h1>
-				<div id="cpakket1">
-				<div class="geel">
-					<h2 id="geel">Geel</h2>
-				</div>
-						<p>10GB Opslag</p>
-						<p>€4 euro per maand</p>
-				</div>
-				<div id="cpakket2">
-				<div class="oranje">
-					<h2 id="oranje">Oranje</h2>
-				</div>
-						<p>100GB Opslag</p>
-						<p>€6 euro per maand</p>
-				</div>
-				<div id="cpakket3">
-				<div class="groen">
-					<h2 id="groen">Groen</h2>
-				</div>
-						<p>1TB Opslag</p>
-						<p>€10 euro per maand</p>
-				</div>
-		</div>
-		</div>	
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2500); // om de 2.5 seconden
+}
+				</script>
+				
+				
+				<div class="container flex-direction">
+      <div class="div1">
+       <h1  style="color:black;">Wie of wat is coliccs?</h1>	
+					
+					<p id="p">
+					Colicss is een innovatief en vernieuwend bedrijf uit Slagharen dat zich vooral bezighoudt met hosting en sinds kort ook de cloud. Het bedrijf gaat onder leiding van Rob Sieljes al een poos flink voor de wind en zijn binnen twee jaar gegroeid van een eenmanszaak naar een bedrijf met zes man personeel.
+					</p>
+						  <hr style="width:75%;">
+      </div>
+
+      <div class="div2">
+        <h1 style="color:black;">Wat houd hosting precies in?</h1>
+
+					<p id="p">
+					Hosting staat voor het plaatsen van een website op een webserver zodat bezoekers deze website kunnen bereiken via de domeinnaam van deze website. Zodra mensen een domeinnaam intypen wordt er contact gezocht met de server die is gekoppeld aan deze domeinnaam. De bestanden op de server van de hosting provider worden dan voor de bezoeker geopend in de browser.
+					</p>
+					
+						<hr style="width:75%;">
+      </div>
+	  <div class="div3">
+        <h1 style="color:black;">Mooie overwinning</h1>
+				
+					<p id="p">
+					Onlangs hebben ze nog een prijs gewonnen voor beste innovatie binnen de hosting door samen te werken met het Alfa-college. In dit project hebben studenten van het Alfa-college een hostingomgeving opgezet met daarop een testwebsite. Het panel van deze prijs vond de samenwerking zo gaaf, dat ze de prijs beste innovatie hebben gewonnen.
+					</p>
+				
+      </div>
+</div>
+				
+			</div>
+			
 </div>		
 <div id="footer">
 	<p>
-	&copy; Colicss | 2018
+	&copy; Colicss | 2018 <br><br>
+	
+			<a href="https://twitter.com/ColicssHosting"  target="_blank"><img src="afbeeldingen/twitter.jpg" alt="Twitter" style="width:42px;height:42px;border:0;"></a>
+			
+			<a href="https://www.instagram.com/coliccshosting/"  target="_blank"><img src="afbeeldingen/instagram.jpg" alt="Instagram" style="width:42px;height:42px;border:0;"></a>
+			
+			<a href="https://www.facebook.com/coliccshosting"  target="_blank"><img src="afbeeldingen/facebook.jpg" alt="Facebook" style="width:42px;height:42px;border:0;"></a>
 	</p>	
 </div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script><script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<script src="script.js"></script>
 </body>
 </html>
